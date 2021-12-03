@@ -1,4 +1,4 @@
-.Month {
+.Item {
   width: 512px;
   height: 700px;
 
@@ -13,6 +13,25 @@
   margin-bottom: 32px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.title-box {
+  position: absolute;
+  background: cyan;
+  width: 400px;
+  top: 30px;
+  border-radius: 10px;
+
+  .title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.profile-box {
+  position: absolute;
+  top: 130px;
 }
