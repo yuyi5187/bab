@@ -1,5 +1,6 @@
-import React from "react";
-import { createGlobalStyle } from "styled-components";
+import React from 'react';
+import { createGlobalStyle } from 'styled-components';
+import DayList from './components/DayList';
 import Month from "./components/Month";
 import Item from "./components/Item";
 
@@ -13,7 +14,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Item></Item>
+        <DayList>오늘의 날짜</DayList>
     </>
   );
 }

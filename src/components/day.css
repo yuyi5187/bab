@@ -1,0 +1,17 @@
+.title{
+    color:white;
+    background-color:blue;
+    border-color:whitesmoke;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.ground{
+    padding:0.3rem;
+    
+    margin: 2.4px;
+    margin-left:25px;
+    border-radius: 10px;
+    max-width:450px;
+    background-color:skyblue;
+}
