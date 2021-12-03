@@ -1,6 +1,6 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
-import Template from './components/Template';
+import DayList from './components/DayList';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -12,7 +12,9 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Template>안녕하세요</Template>
+      
+      <DayList>오늘의 날짜</DayList>
+
     </>
   );
 }
