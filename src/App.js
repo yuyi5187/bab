@@ -1,6 +1,7 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 import Month from "./components/Month";
+import Item from "./components/Item";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Month>안녕하세요</Month>
+      <Item></Item>
     </>
   );
 }
