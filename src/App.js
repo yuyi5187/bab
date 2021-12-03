@@ -1,6 +1,6 @@
-import React from 'react';
-import { createGlobalStyle } from 'styled-components';
-import Template from './components/Template';
+import React from "react";
+import { createGlobalStyle } from "styled-components";
+import Month from "./components/Month";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -12,11 +12,9 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Template>안녕하세요</Template>
+      <Month>안녕하세요</Month>
     </>
   );
 }
 
 export default App;
-
-
